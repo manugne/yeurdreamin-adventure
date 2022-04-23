@@ -1,37 +1,13 @@
 {
-  "orgName": "yeurdream-company",
-  "edition": "Enterprise",
-  "features": [
-        "Communities", 
-        "ServiceCloud", 
-        "Chatbot", 
-        "MultiCurrency" , 
-        "ContactsToMultipleAccounts",
-        "CascadeDelete",
-        "Knowledge",
-        "Sites",
-        "Communities",
-        "PersonAccounts",
-        "Pardot",
-        "ForceComPlatform",
-        "StateAndCountryPicklist",
-        "Entitlements",
-        "IoT",
-        "LiveAgent"
-        
-    ],
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi"],
   "settings": {
-      "orgPreferenceSettings": {
-          "networksEnabled": true,
-          "s1DesktopEnabled": true,
-          "s1EncryptedStoragePref2": false
-      },
-      "omniChannelSettings": {
-          "enableOmniChannel": true
-      },
-
-      "caseSettings": {
-          "systemUserEmail": "sfdcpanther@outlook.com"
-      }
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
   }
 }
